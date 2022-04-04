@@ -23,10 +23,14 @@
     </div>
 
     <div class="flex justify-between items-center">
-      <a href="https://app.x.rip/login" class="text-white">Login</a>
+      <a
+        href="https://app.x.rip/login"
+        class="text-white text-opacity-80 hover:text-opacity-100 transition"
+        >Login</a
+      >
       <a
         href="https://app.x.rip/register"
-        class="border border-xrip hover:bg-xrip transition px-4 py-1 text-white rounded-md ml-6"
+        class="border border-xrip hover:bg-xrip transition px-4 py-1 text-white text-opacity-80 hover:text-opacity-100 rounded-md ml-6"
       >
         Sign up
       </a>
