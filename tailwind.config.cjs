@@ -13,8 +13,8 @@ module.exports = {
       },
       animation: {
         'fade-in': 'fade-in 0.45s 0.1s ease-in-out forwards',
+        'fade-in-slow': 'fade-in 0.8s 0.35s ease-in-out forwards',
         'fade-in-down': 'fade-in-down 0.8s 0.35s ease-in-out forwards',
-        'fade-in-down-slow': 'fade-in-down 0.8s 0.65s ease-in-out forwards',
         'fade-in-bounce': 'fade-in-bounce 4.1s 0.65s ease-out forwards',
       },
       keyframes: {
