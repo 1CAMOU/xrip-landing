@@ -2,34 +2,43 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="csrf-token" content="{{ csrf_token() }}">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="title" content="xrip | Incentivized Invite-Only Gaming Community">
-        <meta name="description" content="Get invited to earn rewards for participating in digital esports tournaments with your team! ">
-        <meta name="keywords" content="esports,gaming,xrip,invite,community,gaming community,rewards,giveaway,esports,esl,tournaments,valorant">
-        <meta name="robots" content="index, nofollow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
-        <meta name="theme-color" content="#D13F62">
+            <meta name="title" content="xrip | Incentivized Invite-Only Gaming Community">
+            <meta name="description" content="Get invited to earn rewards for participating in digital esports tournaments with your team! ">
+            <meta name="keywords" content="esports,gaming,xrip,invite,community,gaming community,rewards,giveaway,esports,esl,tournaments,valorant">
+            <meta name="robots" content="index, nofollow">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta name="language" content="English">
+            <meta name="theme-color" content="#D13F62">
 
-        <!-- Facebook Meta Tags -->
-        <meta property="og:url" content="https://x.rip/">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="x.rip | Incentivized Invite-Only Gaming Community">
-        <meta property="og:description"
-              content="Get invited to earn rewards for participating in digital esports tournaments with your team!">
-        <meta property="og:image" content="{{ asset('images/embed.png') }}">
+            <!-- Facebook Meta Tags -->
+            <meta property="og:url" content="https://x.rip/">
+            <meta property="og:type" content="website">
+            <meta property="og:title" content="x.rip | Incentivized Invite-Only Gaming Community">
+            <meta property="og:description"
+                  content="Get invited to earn rewards for participating in digital esports tournaments with your team!">
+            <meta property="og:image" content="%svelte.asset%/embed.png">
 
-        <!-- Twitter Meta Tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="x.rip">
-        <meta property="twitter:url" content="https://x.rip/">
-        <meta name="twitter:title" content="x.rip | Incentivized Invite-Only Gaming Community">
-        <meta name="twitter:description"
-              content="Get invited to earn rewards for participating in digital esports tournaments with your team!">
-        <meta name="twitter:image" content="{{ asset('images/embed.png') }}">
+            <!-- Twitter Meta Tags -->
+            <meta name="twitter:card" content="summary_large_image">
+            <meta property="twitter:domain" content="x.rip">
+            <meta property="twitter:url" content="https://x.rip/">
+            <meta name="twitter:title" content="x.rip | Incentivized Invite-Only Gaming Community">
+            <meta name="twitter:description"
+                  content="Get invited to earn rewards for participating in digital esports tournaments with your team!">
+            <meta name="twitter:image" content="%svelte.asset%/embed.png">
 		
+            <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+
+            <!-- We use the full link to the CSS file in the rest of the tags -->
+            <link rel="preload" as="style" href="https://api.fontshare.com/css?f[]=cabinet-grotesk@1&display=swap" />
+            <link rel="stylesheet" href="https://api.fontshare.com/css?f[]=cabinet-grotesk@1&display=swap" media="print" onload="this.media='all'" />
+
+            <noscript>
+                  <link rel="stylesheet" href="https://api.fontshare.com/css?f[]=cabinet-grotesk@1&display=swap" />
+            </noscript>
+
 		%svelte.head%
 	</head>
 

@@ -4,10 +4,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans]
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        heading: 'Cabinet Grotesk',
       },
       colors: {
         'xrip': '#D13F62',
+        'soft-white': '#FFEEF7',
       }
     },
   },
