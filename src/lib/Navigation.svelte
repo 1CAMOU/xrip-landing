@@ -1,12 +1,22 @@
+<script>
+  import { page } from "$app/stores";
+</script>
+
 <nav
   class="h-16 flex items-center w-full bg-white bg-opacity-5 border-b border-b-white border-opacity-10 backdrop-blur-sm"
 >
   <div
-    class="max-w-7xl mx-auto py-4 px-12 flex justify-between items-center w-full"
+    class="max-w-7xl mx-auto h-full px-12 flex justify-between items-center w-full"
   >
-    <div class="flex">
+    <div class="flex items-center h-full">
       <img src="/logo.svg" alt="xrip logo" class="h-6 mr-16" />
-      <a href="/" class="text-white">Home</a>
+      <a
+        href="/"
+        class="text-white text-opacity-80 hover:text-opacity-100 transition h-full pt-5 {$page
+          .url.pathname == '/'
+          ? 'border-b-2 border-xrip'
+          : ''}">Home</a
+      >
     </div>
 
     <div class="flex justify-between items-center">
