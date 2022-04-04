@@ -9,7 +9,10 @@
     class="max-w-7xl mx-auto h-full px-12 flex justify-between items-center w-full"
   >
     <div class="flex items-center h-full">
-      <img src="/logo.svg" alt="xrip logo" class="h-6 mr-16" />
+      <a href="/">
+        <img src="/logo.svg" alt="xrip logo" class="h-6 mr-16" />
+      </a>
+
       <a
         href="/"
         class="text-white text-opacity-80 hover:text-opacity-100 transition h-full pt-5 {$page
