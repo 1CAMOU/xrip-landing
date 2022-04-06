@@ -161,3 +161,26 @@
     />
   </div>
 </header>
+
+<section
+  class="bg-black relative mt-20 flex flex-col justify-center items-center py-20"
+>
+  <div
+    class="h-[1px] w-screen bg-xrip absolute top-0 left-0"
+    style="background: linear-gradient(to right, black, #D13F62, black);"
+  />
+
+  <p class="text-xrip font-medium uppercase">What we offer</p>
+  <h1
+    class="text-center mx-auto text-white font-extrabold font-heading text-5xl mt-4"
+  >
+    It is as cool as it looks. Really.
+  </h1>
+
+  <p
+    class="text-center mx-auto text-soft-white text-opacity-80 max-w-2xl mt-6 text-lg px-8 lg:px-4"
+  >
+    Everything you need to be a part of the fastest growing gaming community. A
+    wide range of events and interactions make us stand out.
+  </p>
+</section>
