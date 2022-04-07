@@ -49,7 +49,7 @@
   >
     <div
       class="absolute -z-10 -top-24 left-0 right-0 bottom-0 motion-reduce:opacity-30 animate-fade-in-bounce motion-reduce:animate-none blur-[160px] opacity-0 select-none pointer-events-none will-change-contents"
-      style="backface-visibility: hidden; background: conic-gradient( from 230.29deg at 51.63% 52.16%, #D13F62 0deg, #e85679 67.5deg, #D13F62 198.75deg, #f21877 251.25deg, #d62472 301.88deg, #ca24d6 360deg ); transform: translate3d(0,0,0);"
+      style="backface-visibility: hidden; background: conic-gradient( from 230.29deg at 51.63% 52.16%, #D13F62 0deg, #e85679 67.5deg, #ca24d6 198.75deg, #f21877 251.25deg, #d62472 301.88deg, #ca24d6 360deg ); transform: translate3d(0,0,0);"
     />
 
     <!-- Top -->
@@ -164,7 +164,8 @@
 </header>
 
 <section
-  class="bg-black relative mt-20 flex flex-col justify-center items-center py-20"
+  class="relative mt-20 flex flex-col justify-center items-center py-20 shadow-md backdrop-blur-sm"
+  style="background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.6) 100%);"
 >
   <div
     class="h-[1px] w-screen bg-xrip absolute top-0 left-0"
@@ -338,4 +339,17 @@
     class="text-white text-opacity-70 mt-12 hover:text-opacity-100 transition"
     >Learn more &rarr</a
   >
+
+  <div
+    class="h-[1px] w-screen bg-xrip absolute bottom-0 left-0"
+    style="background: linear-gradient(to right, black, #D13F62, black);"
+  />
+</section>
+
+<section class="relative mt-20 flex flex-col justify-center items-center py-20">
+  <div
+    class="absolute -z-10 -top-52 h-[12rem] w-[60rem] opacity-50 blur-[130px] select-none pointer-events-none"
+    style="backface-visibility: hidden; background: conic-gradient( from 230.29deg at 51.63% 52.16%, #ca24d6 0deg, #e85679 67.5deg, #D13F62 198.75deg, #f21877 251.25deg, #d62472 301.88deg, #f21877 360deg ); transform: translate3d(0,0,0);"
+  />
+  <p>Test</p>
 </section>
