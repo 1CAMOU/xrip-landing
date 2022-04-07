@@ -32,7 +32,8 @@
 
   <div class="px-3 py-4 border border-xrip border-dashed rounded-lg mt-12">
     <a
-      href=""
+      href="https://discord.gg/Ah4UggdepF"
+      target="_blank"
       class="py-2 px-16 text-lg text-center text-white mx-auto bg-xrip rounded-md relative group"
     >
       <div
@@ -330,4 +331,11 @@
       </div>
     </div>
   </div>
+
+  <a
+    href="https://discord.gg/Ah4UggdepF"
+    target="_blank"
+    class="text-white text-opacity-70 mt-12 hover:text-opacity-100 transition"
+    >Learn more &rarr</a
+  >
 </section>
