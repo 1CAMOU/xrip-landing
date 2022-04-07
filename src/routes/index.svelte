@@ -503,20 +503,22 @@
   </div>
 </section>
 
-<section class="relative mt-20 flex flex-col py-10">
+<section class="relative mt-20 flex flex-col py-10 px-8 lg:px-0">
   <div
-    class="w-[60rem] h-32 mx-auto rounded-lg p-1"
+    class="w-full lg:w-[60rem] lg:h-32 mx-auto rounded-lg p-1"
     style="background: linear-gradient(270deg, #3B1637 0%, #B140A3 33.41%, #6B1738 52.08%, #D13F62 69.79%, #431520 100%);"
   >
     <div
-      class="w-full h-full bg-black bg-opacity-50 flex items-center justify-between rounded-lg border-white border border-opacity-10 p-6"
+      class="w-full h-full bg-black bg-opacity-70 lg:bg-opacity-50 flex flex-col lg:flex-row items-center justify-between rounded-lg border-white border border-opacity-10 p-6"
     >
       <div class="flex flex-col justify-center">
-        <p class="text-white font-bold font-heading text-xl mt-1">
+        <p
+          class="text-white text-center lg:text-left font-bold font-heading text-xl mt-1"
+        >
           We’re looking for Community Members.
         </p>
 
-        <p class="text-soft-white text-oapcity-80">
+        <p class="text-soft-white text-center lg:text-left text-oapcity-80">
           Join our Gaming Community and start playing in valuable tournaments.
         </p>
       </div>
@@ -524,7 +526,7 @@
       <a
         href="https://discord.gg/Ah4UggdepF"
         target="_blank"
-        class="px-4 py-2 bg-xrip border-xrip border bg-opacity-10 border-opacity-20 text-opacity-60 text-xrip transition hover:border-opacity-80 hover:text-opacity-100 hover:bg-opacity-20 rounded-md"
+        class="px-12 lg:px-4 py-2 bg-xrip border-xrip border bg-opacity-10 border-opacity-20 text-opacity-60 text-xrip transition hover:border-opacity-80 hover:text-opacity-100 hover:bg-opacity-20 rounded-md mt-8 lg:mt-0"
         >Join now</a
       >
     </div>
