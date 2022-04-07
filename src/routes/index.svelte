@@ -351,5 +351,46 @@
     class="absolute -z-10 -top-52 h-[12rem] w-[60rem] opacity-50 blur-[130px] select-none pointer-events-none"
     style="backface-visibility: hidden; background: conic-gradient( from 230.29deg at 51.63% 52.16%, #ca24d6 0deg, #e85679 67.5deg, #D13F62 198.75deg, #f21877 251.25deg, #d62472 301.88deg, #f21877 360deg ); transform: translate3d(0,0,0);"
   />
-  <p>Test</p>
+
+  <h1
+    class="text-center mx-auto px-4 text-white font-extrabold font-heading text-5xl mt-4"
+  >
+    The leading games in our community
+  </h1>
+
+  <p
+    class="text-center mx-auto text-soft-white text-opacity-80 max-w-3xl mt-6 text-lg px-8 lg:px-4"
+  >
+    Say hello to a revolutionary gaming space where you can ignite your
+    competitive passion. We currently host regular tournaments and events for
+    the following games:
+  </p>
+
+  <div
+    class="flex flex-col lg:flex-row justify-center lg:justify-evenly items-center space-y-12 lg:space-y-0 lg:space-x-20 mt-12"
+  >
+    <a href="https://minecraft.net" target="_blank">
+      <img
+        src="/minecraft.png"
+        alt="minecraft logo"
+        class="grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition"
+      />
+    </a>
+
+    <a href="https://playvalorant.com" target="_blank">
+      <img
+        src="/valorant.png"
+        alt="valorant logo"
+        class="grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition"
+      />
+    </a>
+
+    <a href="https://counter-strike.net" target="_blank">
+      <img
+        src="/csgo.png"
+        alt="counter strike logo"
+        class="grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition"
+      />
+    </a>
+  </div>
 </section>
