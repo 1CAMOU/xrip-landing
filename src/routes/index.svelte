@@ -395,7 +395,7 @@
   </div>
 </section>
 
-<section class="relative mt-20 flex flex-col pt-20">
+<section class="relative flex flex-col pt-10">
   <div
     class="flex flex-col lg:flex-row justify-center lg:justify-between items-center max-w-7xl mx-auto"
   >
